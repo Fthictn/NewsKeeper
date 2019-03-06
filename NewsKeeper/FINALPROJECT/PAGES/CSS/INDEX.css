@@ -1,0 +1,200 @@
+﻿
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(53, 64, 79);
+}
+
+#container {
+    margin: auto;
+    width: 1000px;
+    height: 723px;
+    background-color: rgb(53, 64, 79);
+}
+
+#content {
+    float: left;
+    width: 70%;
+    height: 723px;
+    background-color: rgb(53, 64, 79);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#others {
+    float: right;
+    width: 29.5%;
+    height: 723px;
+    background-color: rgb(53, 64, 79);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#profil {
+    width: 260px;
+    height: 330px;
+    background-color: rgb(50, 145, 201);
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.0s;
+    transition-timing-function: ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    width: 680px;
+    height: 80px;
+}
+
+ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(53, 64, 79);
+}
+
+    ul li {
+        list-style: none;
+        background-color: rgb(50, 145, 201);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 70px;
+        font-family: 'Audiowide', cursive;
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-delay: 0.0s;
+        transition-timing-function: ease;
+    }
+
+        ul li:hover {
+            background-color: rgb(53, 64, 79);
+            border-top: 2px solid whitesmoke;
+            border-bottom: 2px solid whitesmoke;
+        }
+
+        ul li a {
+            font-size: 17px;
+            text-decoration: none;
+            color: whitesmoke;
+            transition-property: all;
+            transition-duration: 0.3s;
+            transition-delay: 0.0s;
+            transition-timing-function: ease;
+        }
+
+            ul li a:hover {
+                text-decoration: underline;
+                font-size: 19px;
+            }
+            table{
+                margin:30px;
+            }
+#icerik {
+    width: 780px;
+    height: 700px;
+    background-color: rgb(50, 145, 201);
+    overflow: auto;
+    padding: 30px;
+    border-left: 2px solid whitesmoke;
+    border-right: 2px solid whitesmoke;
+}
+
+#login {
+    width: 230px;
+    height: 300px;
+    background-color: rgb(53, 64, 79);
+    border: none;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.0s;
+    transition-timing-function: ease;
+    border-right: 2px solid whitesmoke;
+    border-left: 2px solid whitesmoke;
+}
+
+    #login:hover {
+        border-top: 2px solid whitesmoke;
+        border-bottom: 2px solid whitesmoke;
+    }
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#giris {
+    color: whitesmoke;
+    font-family: 'Audiowide', cursive;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.inputs {
+    width: 90%;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(50, 145, 201);
+}
+
+#yolla {
+    padding: 5px;
+    width: 90%;
+    background-color: rgb(50, 145, 201);
+    border: none;
+    color: whitesmoke;
+    font-family: 'Audiowide', cursive;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-delay: 0.0s;
+    transition-timing-function: ease;
+}
+
+    #yolla:hover {
+        background-color: whitesmoke;
+        color: rgb(50, 145, 201);
+        border: 1px solid rgb(50, 145, 201);
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+#second {
+    margin-bottom: 40px;
+}
+
+#kayit {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Audiowide', cursive;
+    margin-top: 10px;
+}
+
+    #kayit:hover {
+        text-decoration: underline;
+    }
+
+#first-last {
+    border-left: 2px solid whitesmoke;
+    border-right: 2px solid whitesmoke;
+}
+
+.orta {
+    border-right: 2px solid whitesmoke
+}

@@ -1,0 +1,107 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(50, 145, 201);
+}
+
+form {
+    border-left: 3px solid whitesmoke;
+    border-right: 3px solid whitesmoke;
+    margin: auto;
+    margin-top: 200px;
+    margin-right: 100px;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(53, 64, 79);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-delay: 0.0s;
+    transition-timing-function: ease;
+}
+
+    form:hover {
+        border-top: 3px solid whitesmoke;
+        border-bottom: 3px solid whitesmoke;
+        width: 330px;
+        height: 430px;
+    }
+
+#yolla {
+    height: 30px;
+    padding: 5px;
+    width: 100%;
+    background-color: rgb(50, 145, 201);
+    border: none;
+    color: whitesmoke;
+    font-family: 'Audiowide', cursive;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-delay: 0.0s;
+    transition-timing-function: ease;
+    border-right: 2px solid whitesmoke;
+    border-left: 2px solid whitesmoke;
+}
+
+    #yolla:hover {
+        background-color: whitesmoke;
+        color: rgb(50, 145, 201);
+        border: 1px solid rgb(50, 145, 201);
+        text-decoration: underline;
+        cursor: pointer;
+        border-bottom: 2px solid whitesmoke;
+        border-top: 2px solid whitesmoke;
+    }
+    #messagelabel1{
+        color:darkred;
+        text-decoration:underline;
+    }
+#entry {
+    color: whitesmoke;
+    font-family: 'Audiowide', cursive;
+    font-size: 30px;
+}
+
+.inputs {
+    width: 230px;
+    line-height: 30px;
+    text-align: center;
+    color: rgb(53, 64, 79);
+}
+
+#head {
+    position: absolute;
+    top: 400px;
+    left: 380px;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Gamja Flower', cursive;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-delay: 0.0s;
+    transition-timing-function: ease;
+    text-decoration: none;
+}
+
+    #head:hover {
+        text-decoration: underline;
+    }
+
+.icon {
+    position: absolute;
+    color: whitesmoke;
+    font-size: 100px;
+    margin-left: 520px;
+    margin-top: 50px;
+}
+
+#out {
+    width: 150px;
+}
